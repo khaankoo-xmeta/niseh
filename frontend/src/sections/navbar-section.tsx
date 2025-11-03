@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useRouter } from 'next/navigation';
-import React from 'react';
+import { useRouter } from "next/navigation";
+import React from "react";
 
 type Props = Readonly<{
   scrollToSection: (ref: React.RefObject<HTMLElement>) => void;
@@ -13,34 +13,34 @@ export const NavbarSection = ({ scrollToSection, call, address }: Props) => {
   const router = useRouter();
   return (
     <section
-      className='bg-no-repeat bg-cover bg-center min-h-[600px]'
+      className="bg-no-repeat bg-cover bg-center min-h-[600px]"
       style={{
-        backgroundImage: "url('/images/poster.jpg')",
-        mixBlendMode: 'multiply',
+        backgroundImage: "url('/images/poster.png')",
+        mixBlendMode: "multiply",
       }}
     >
-      <div className='container mx-auto flex justify-between items-center p-4'>
+      <div className="container mx-auto flex justify-between items-center p-4">
         <div>
-          <button className='font-bold text-[#ffffff] text-2xl cursor-pointer'>
-            Хурд карго
+          <button className="font-bold text-[#ffffff] text-2xl cursor-pointer">
+            Нисэх карго
           </button>
         </div>
-        <div className='flex flex-row gap-7 items-center'>
+        <div className="flex flex-row gap-7 items-center">
           <button
-            className='cursor-pointer text-white font-normal max-sm:hidden'
+            className="cursor-pointer text-white font-normal max-sm:hidden"
             onClick={() => scrollToSection(address)}
           >
             Хаяг холбох
           </button>
           <button
-            className='cursor-pointer text-white font-normal max-sm:hidden'
+            className="cursor-pointer text-white font-normal max-sm:hidden"
             onClick={() => scrollToSection(call)}
           >
             Холбоо барих
           </button>
           <button
-            className='bg-white py-2 px-4 rounded-full text-black cursor-pointer'
-            onClick={() => router.push('/sign-in')}
+            className="bg-white py-2 px-4 rounded-full text-black cursor-pointer"
+            onClick={() => router.push("/sign-in")}
           >
             Нэвтрэх
           </button>
