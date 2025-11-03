@@ -22,7 +22,7 @@ export const NavbarSection = ({ scrollToSection, call, address }: Props) => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <div>
           <button className="font-bold text-[#ffffff] text-2xl cursor-pointer">
-            Нисэх карго
+            Нисэх карго-Ereenees Mgl Cargo
           </button>
         </div>
         <div className="flex flex-row gap-7 items-center">

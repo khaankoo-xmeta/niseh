@@ -54,7 +54,7 @@ export const InformationSection = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <div>
           <button className="font-bold text-[#aa8f68] text-2xl cursor-pointer">
-            Нисэх карго
+            Нисэх карго-Ereenees Mgl Cargo
           </button>
         </div>
         <div>

@@ -4,7 +4,7 @@ export const TouchIn = () => {
   return (
     <div className="flex flex-row justify-between container py-10 items-start px-5 max-md:flex-col gap-10">
       <div className="flex flex-col gap-2">
-        <h1>Нисэх карго</h1>
+        <h1>Нисэх карго-Ereenees Mgl Cargo</h1>
         <p className="max-w-72">
           Манай хаяг: Буянтухаа спорт цогцолборын автобусны буудалын ард AERO
           TOWN хотхон 304-р байр 2 тоот
