@@ -13,7 +13,6 @@ import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { Product } from "@/types/product";
 import { ROLE, STATUS } from "@/types/common";
 
@@ -98,19 +97,19 @@ export function ArchivedTable({ phoneNumber, userRole }: Props) {
     }
   }, [searchPhoneNumber, searchTrackingCode, userRole]);
 
-  const handleSearch = () => {
-    if (searchPhoneNumber || searchTrackingCode) {
-      searchArchivedProducts();
-    } else {
-      fetchData();
-    }
-  };
+  // const handleSearch = () => {
+  //   if (searchPhoneNumber || searchTrackingCode) {
+  //     searchArchivedProducts();
+  //   } else {
+  //     fetchData();
+  //   }
+  // };
 
-  const handleClearSearch = () => {
-    setSearchPhoneNumber("");
-    setSearchTrackingCode("");
-    fetchData();
-  };
+  // const handleClearSearch = () => {
+  //   setSearchPhoneNumber("");
+  //   setSearchTrackingCode("");
+  //   fetchData();
+  // };
 
   useEffect(() => {
     fetchData();
