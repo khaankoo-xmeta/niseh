@@ -6,7 +6,7 @@ export const TouchIn = () => {
       <div className="flex flex-col gap-2">
         <h1>Нисэх карго-Ereenees Mgl Cargo</h1>
         <p className="max-w-72">
-          Манай хаяг: Буянтухаа спорт цогцолборын автобусны буудалын ард AERO
+          Манай хаяг: Буянтухаа спорт цогцолборын автобусны буудлын ард AERO
           TOWN хотхон 304-р байр 2 тоот
         </p>
       </div>
