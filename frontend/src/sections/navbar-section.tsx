@@ -15,7 +15,7 @@ export const NavbarSection = ({ scrollToSection, call, address }: Props) => {
     <section
       className="bg-no-repeat bg-cover bg-center min-h-[600px]"
       style={{
-        backgroundImage: "url('/images/poster.png')",
+        backgroundImage: "url('/images/withouttitle.jpg')",
         mixBlendMode: "multiply",
       }}
     >
